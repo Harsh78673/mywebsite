@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" >
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-body">
+                    <img id="profile-pic" src="{% static 'images/profilepic.jpg' %}" alt="Profilepic"> 
+                    <hr>
+                    <h4 class="h4color">Hi I'm Harsh</h4>
+                    <p>I love coding. I am a professional Frontend Web Developer. </p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info"> 
+                    <h4 class="h4color">My First Job as a Developer</h4>
+                    <hr>
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste qui animi expedita consequatur quia amet quos mollitia esse dignissimos, delectus, molestiae quis totam itaque impedit nam iure architecto ad nemo doloribus. Fuga hic voluptatum a soluta id? Error deleniti, autem, possimus in odit quasi culpa earum iusto omnis eius facere.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque excepturi quas voluptas ratione nemo molestias nihil sapiente tempora earum odit, soluta modi possimus ipsa fugiat accusantium sequi. Dolorem optio sunt cupiditate officia non sint nesciunt.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eligendi porro praesentium impedit illum doloremque nisi incidunt iusto labore? Nihil?</p>
+
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100"> 
+                    <h5 class="h5color">My Experience as a Developer </h5>
+                    <hr>
+                    <p>Frontend Developer with HTML, CSS, JS and Reactjs </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ut optio ducimus perferendis, laboriosam laborum vitae ea odit reiciendis neque maxime provident omnis deserunt, perspiciatis explicabo temporibus alias, minus nostrum!25</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100"> 
+                    <h5 class="h5color">What I Know </h5>
+                    <hr>
+                    <p>Pythpn, Django, HTML/CSS, JavaScript, React. There are a lot i can't mention it all here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nisi? Obcaecati temporibus ducimus enim? Non quia vero deserunt rem blanditiis?</p>
+                    <p>PS: WOrking on Node JS, MongoDB and Macine Learning</p>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100"> 
+                    <h5 class="h5color">How I Learn</h5>
+                        <hr>
+                        <p>Reverse Engineer & Built Ugly Projects Firest</p>
+                        <p>I can learn very fast Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta alias, repellendus beatae cum voluptatum voluptates pariatur distinctio explicabo impedit adipisci unde magni asperiores vel quaerat dignissimos molestiae ipsum? Fuga beatae similique nesciunt accusantium adipisci amet, ipsum modi.</p>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100"> 
+                    <h5 class="h5color">My Short Term Goals</h5>
+                    <hr>
+                    <p>After almost one year of learning and making projects i am ready to learn something new Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure nulla corrupti ipsa maxime recusandae, libero architecto ab est.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita id sit necessitatibus fugit repudiandae sapiente dicta nam, nesciunt itaque provident! Sapiente, temporibus?</p>
+                </div>
+            </div>
+        </div>
+    </div>   
+<br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
